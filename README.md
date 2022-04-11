@@ -8,7 +8,7 @@ It will use Express and probably Three to create a dynamic and fancy website.
 ## Use
 ### Launch 
 ```node
-npm run start
+npm run script
 ```
 to launch the code
 
