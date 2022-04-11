@@ -1,11 +1,12 @@
 # Assignments_WEB
----
+
 ## Description
 This project wants to create a website that promote canabis and offers for sale.
+---
 It will use Express and probably Three to create a dynamic and fancy website.
 
-### Use
-Launch 
+## Use
+### Launch 
 ```node
 npm run start
 ```
