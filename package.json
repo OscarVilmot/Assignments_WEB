@@ -1,0 +1,22 @@
+{
+  "name": "assignments_web",
+  "version": "1.0.0",
+  "description": "A website that promote canabis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarVilmot/Assignments_WEB.git"
+  },
+  "author": "Oscar Vilmot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarVilmot/Assignments_WEB/issues"
+  },
+  "homepage": "https://github.com/OscarVilmot/Assignments_WEB#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
