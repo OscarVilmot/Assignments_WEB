@@ -7,7 +7,8 @@ It has a list of famous and trendy cryptocurrencies which should move in the nex
 
 ## Use
 ### Launch 
-```node
+run
+```node 
 npm run script
 ```
 to launch the server
