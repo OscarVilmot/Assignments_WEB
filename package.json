@@ -4,7 +4,7 @@
   "description": "A website that promote canabis",
   "main": "index.js",
   "scripts": {
-    "script": "node index.js"
+    "script": "node app.js"
   },
   "repository": {
     "type": "git",
