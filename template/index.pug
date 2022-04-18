@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/bootstrap.min.css")
+        title CyptoPlusBeau
+    body 
+        h1 Crypto - PlusBeau
+        p Select a cryptocurrency on the list bellow and it's symbol & price will show up in a page
+        ul
+            each id in list
+                li
+                    a(href=`/info/${id.symbol}`)= id.name
+
+        script(src="/js/bootstrap.bundle.min.js") 
