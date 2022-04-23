@@ -13,13 +13,13 @@ app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/
 app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 
 
-let initialRequest = 'https://api.coincap.io/v2/assets?'
-            + 'limit=2000'
+let initialRequest = 'https://api.coincap.io/v2/exchanges?'
+            + 'limit=20'
 
 fetch(initialRequest)
 .then(resp => resp.json())
 .then(json => {
-    fs.writeFile("data/map.json", JSON.stringify(json, undefined, 2), (err) =>{
+    fs.writeFile("data/exchanges.json", JSON.stringify(json, undefined, 2), (err) =>{
       if (err) { 
         console.log(err); 
       }
@@ -28,10 +28,10 @@ fetch(initialRequest)
 
 app.get("/", (req, res) => {
   fs.readFile('data/map.json', (err, data) => {
-    let arrayVal = [], packet
     if(err){
       console.log(err)
     } else {
+      let arrayVal = [], packet
       packet = JSON.parse(data)
       for(let a = 0; a < 30; a++){
         arrayVal.push(
@@ -67,6 +67,15 @@ app.get("/info/:crypto", (req, res) => {
   let rank = getRank(json, req.params.crypto)
   res.render(path.join(__dirname, "template/crypto"), {'crypto':json.data[rank]})
 })
+
+/*
+app.get("/dev/test", (req, res) => {
+  const raw = fs.readFileSync("data/map.json")
+  console.log(raw)
+  const json = JSON.parse(raw)
+  res.jsonp(JSON.stringify(json, undefined, 2))
+})
+*/
 
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
