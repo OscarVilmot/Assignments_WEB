@@ -1,0 +1,225 @@
+{
+  "data": [
+    {
+      "exchangeId": "binance",
+      "name": "Binance",
+      "rank": "1",
+      "percentTotalVolume": "31.573380055007724896000000000000000000",
+      "volumeUsd": "13539091874.4867075209751659",
+      "tradingPairs": "929",
+      "socket": true,
+      "exchangeUrl": "https://www.binance.com/",
+      "updated": 1650591645528
+    },
+    {
+      "exchangeId": "hitbtc",
+      "name": "HitBTC",
+      "rank": "2",
+      "percentTotalVolume": "9.375817830545377664000000000000000000",
+      "volumeUsd": "4020477338.3479121145220564",
+      "tradingPairs": "926",
+      "socket": true,
+      "exchangeUrl": "https://hitbtc.com/",
+      "updated": 1650591613149
+    },
+    {
+      "exchangeId": "crypto",
+      "name": "Crypto.com Exchange",
+      "rank": "3",
+      "percentTotalVolume": "6.307456175747753267000000000000000000",
+      "volumeUsd": "2704722412.0118524569170301",
+      "tradingPairs": "195",
+      "socket": false,
+      "exchangeUrl": "https://api.crypto.com/",
+      "updated": 1650591633052
+    },
+    {
+      "exchangeId": "gdax",
+      "name": "Coinbase Pro",
+      "rank": "4",
+      "percentTotalVolume": "5.609341389752490412000000000000000000",
+      "volumeUsd": "2405361361.3400422256384104",
+      "tradingPairs": "349",
+      "socket": true,
+      "exchangeUrl": "https://pro.coinbase.com/",
+      "updated": 1650591659863
+    },
+    {
+      "exchangeId": "digifinex",
+      "name": "DigiFinex",
+      "rank": "5",
+      "percentTotalVolume": "5.171842105715752256000000000000000000",
+      "volumeUsd": "2217755758.4151796901884890",
+      "tradingPairs": "195",
+      "socket": false,
+      "exchangeUrl": "https://www.digifinex.com/",
+      "updated": 1650591657487
+    },
+    {
+      "exchangeId": "kucoin",
+      "name": "Kucoin",
+      "rank": "6",
+      "percentTotalVolume": "4.941310736101599953000000000000000000",
+      "volumeUsd": "2118900793.0069948657319255",
+      "tradingPairs": "834",
+      "socket": false,
+      "exchangeUrl": "https://www.kucoin.io/",
+      "updated": 1650591613066
+    },
+    {
+      "exchangeId": "huobi",
+      "name": "Huobi",
+      "rank": "7",
+      "percentTotalVolume": "3.739513882156258158000000000000000000",
+      "volumeUsd": "1603554067.6425576529856654",
+      "tradingPairs": "693",
+      "socket": true,
+      "exchangeUrl": "https://www.hbg.com/",
+      "updated": 1650591658332
+    },
+    {
+      "exchangeId": "gate",
+      "name": "Gate",
+      "rank": "8",
+      "percentTotalVolume": "3.676530190605828093000000000000000000",
+      "volumeUsd": "1576545809.8947352158148178",
+      "tradingPairs": "1329",
+      "socket": false,
+      "exchangeUrl": "https://gate.io/",
+      "updated": 1650591660172
+    },
+    {
+      "exchangeId": "bkex",
+      "name": "Bkex",
+      "rank": "9",
+      "percentTotalVolume": "3.047422075781191903000000000000000000",
+      "volumeUsd": "1306775751.9929063559218288",
+      "tradingPairs": "416",
+      "socket": false,
+      "exchangeUrl": "https://www.bkex.com/",
+      "updated": 1650591659978
+    },
+    {
+      "exchangeId": "whitebit",
+      "name": "WhiteBIT",
+      "rank": "10",
+      "percentTotalVolume": "2.335319429715326517000000000000000000",
+      "volumeUsd": "1001416517.9687466017566239",
+      "tradingPairs": "125",
+      "socket": false,
+      "exchangeUrl": "https://whitebit.com",
+      "updated": 1650591660265
+    },
+    {
+      "exchangeId": "bigone",
+      "name": "BigONE",
+      "rank": "11",
+      "percentTotalVolume": "2.330939201092555716000000000000000000",
+      "volumeUsd": "999538216.7652761725670998",
+      "tradingPairs": "118",
+      "socket": false,
+      "exchangeUrl": "https://big.one/",
+      "updated": 1650591656983
+    },
+    {
+      "exchangeId": "uniswap-v3",
+      "name": "Uniswap (V3)",
+      "rank": "12",
+      "percentTotalVolume": "2.287256282657032583000000000000000000",
+      "volumeUsd": "980806391.2523326187011264",
+      "tradingPairs": "354",
+      "socket": false,
+      "exchangeUrl": "https://uniswap.org/",
+      "updated": 1650591570121
+    },
+    {
+      "exchangeId": "currency-com",
+      "name": "Currency.com",
+      "rank": "13",
+      "percentTotalVolume": "2.251838662826719729000000000000000000",
+      "volumeUsd": "965618837.4325383725776603",
+      "tradingPairs": "71",
+      "socket": false,
+      "exchangeUrl": "https://currency.com/",
+      "updated": 1650591659788
+    },
+    {
+      "exchangeId": "lbank",
+      "name": "LBank",
+      "rank": "14",
+      "percentTotalVolume": "2.180412341400109249000000000000000000",
+      "volumeUsd": "934990265.9471069829216348",
+      "tradingPairs": "171",
+      "socket": false,
+      "exchangeUrl": "https://www.lbank.info",
+      "updated": 1650591659025
+    },
+    {
+      "exchangeId": "kraken",
+      "name": "Kraken",
+      "rank": "15",
+      "percentTotalVolume": "1.906740864011465533000000000000000000",
+      "volumeUsd": "817636239.5699506300409621",
+      "tradingPairs": "375",
+      "socket": false,
+      "exchangeUrl": "https://kraken.com",
+      "updated": 1650591660379
+    },
+    {
+      "exchangeId": "bibox",
+      "name": "Bibox",
+      "rank": "16",
+      "percentTotalVolume": "1.469020322706062411000000000000000000",
+      "volumeUsd": "629935758.5394454954562422",
+      "tradingPairs": "201",
+      "socket": false,
+      "exchangeUrl": "https://www.bibox.com",
+      "updated": 1650591656427
+    },
+    {
+      "exchangeId": "cointiger",
+      "name": "CoinTiger",
+      "rank": "17",
+      "percentTotalVolume": "1.358221236186006898000000000000000000",
+      "volumeUsd": "582423613.5175726936064731",
+      "tradingPairs": "229",
+      "socket": false,
+      "exchangeUrl": "https://www.cointiger.com/",
+      "updated": 1650591651847
+    },
+    {
+      "exchangeId": "zb",
+      "name": "ZB",
+      "rank": "18",
+      "percentTotalVolume": "1.306381637700431816000000000000000000",
+      "volumeUsd": "560194093.4151982346870843",
+      "tradingPairs": "270",
+      "socket": true,
+      "exchangeUrl": "https://www.zb.com/",
+      "updated": 1650591660098
+    },
+    {
+      "exchangeId": "bitfinex",
+      "name": "Bitfinex",
+      "rank": "19",
+      "percentTotalVolume": "1.053161059449502419000000000000000000",
+      "volumeUsd": "451609688.8479012699267508",
+      "tradingPairs": "274",
+      "socket": true,
+      "exchangeUrl": "https://bitfinex.com",
+      "updated": 1650591641880
+    },
+    {
+      "exchangeId": "bitstamp",
+      "name": "Bitstamp",
+      "rank": "20",
+      "percentTotalVolume": "0.599930435284786397000000000000000000",
+      "volumeUsd": "257258274.7704025552359054",
+      "tradingPairs": "121",
+      "socket": true,
+      "exchangeUrl": "https://www.bitstamp.net/",
+      "updated": 1650591660346
+    }
+  ],
+  "timestamp": 1650591677314
+}
